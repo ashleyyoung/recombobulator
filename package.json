@@ -1,24 +1,25 @@
 {
-  "name": "@caa/json-patch-recombobulator",
+  "name": "recombobulator",
   "version": "3.0.8",
   "main": "./lib/index.js",
   "description": "Module for fixing incomplete JSON patches",
   "repository": {
     "type": "git",
-    "url": "git://github.com/caagency/json-patch-recombobulator.git"
+    "url": "git://github.com/ashleyyoung/recombobulator.git"
   },
   "scripts": {
     "compile": "node ./node_modules/babel/bin/babel lib --out-dir dist && ./copyJade.sh",
     "test": "lab -t 100 --timeout 5000 --verbose --leaks -L -a code"
   },
-  "author": "Creative Artists Agency, LLC",
+  "author": "Ashley Young",
   "bugs": {
-    "url": "https://github.com/caagency/json-patch-recombobulator/issues"
+    "url": "https://github.com/ashleyyoung/recombobulator/issues"
   },
-  "homepage": "https://github.com/caagency/json-patch-recombobulator",
+  "homepage": "https://github.com/ashleyyoung/recombobulator",
   "dependencies": {
     "fast-json-patch": "^1.1.1",
     "hoek": "^4.1.0",
+    "lodash": "^4.17.11",
     "moment": "^2.22.2"
   },
   "devDependencies": {
