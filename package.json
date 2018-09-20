@@ -19,6 +19,7 @@
   "dependencies": {
     "fast-json-patch": "^1.1.1",
     "hoek": "^4.1.0",
+    "lodash": "^4.17.11",
     "moment": "^2.22.2"
   },
   "devDependencies": {
